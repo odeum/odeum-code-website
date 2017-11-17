@@ -3,7 +3,7 @@ import { Button } from 'odeum-ui'
 
 // import Workspace from 'components/Workspace/Workspace'
 
-class ReactComp extends Component {
+class Homepage extends Component {
 	constructor(props) {
 		super(props)
 
@@ -39,4 +39,4 @@ class ReactComp extends Component {
 	}
 }
 
-export default ReactComp
+export default Homepage
