@@ -5,6 +5,10 @@ export const AlignCenter = styled.div`
 	text-align: center;
 `
 
+export const HomepageButonsContainer = styled.div`
+	padding-top: 40px;
+`
+
 export const Badge = styled.img`
 	margin: 0 0.5em 3em;
 	height: 1.5em;
@@ -16,7 +20,7 @@ export const HomepageHeader = styled.h1`
 	text-align: center;
 	margin: 0;
 	font-size: 50px;
-	letter-spacing: -0.05em;
+	letter-spacing: -0.04em;
 `
 
 export const HomepageTagLine = styled.p`

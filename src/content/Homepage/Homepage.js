@@ -1,6 +1,6 @@
 import React from 'react'
 import { ButtonPanel } from 'odeum-ui'
-import { AlignCenter, HomepageHeader, HomepageTagLine, LinkTo, HomepageButtonSpacer } from './HomepageStyles'
+import { AlignCenter, HomepageHeader, HomepageTagLine, HomepageButonsContainer, LinkTo, HomepageButtonSpacer } from './HomepageStyles'
 import { LinkButton } from '../../framework/LinkButton'
 
 // const RouteComponent = () => {
@@ -11,17 +11,17 @@ const Homepage = () => {
 	return (
 		<div>
 			<AlignCenter>
-				<HomepageHeader>ODEUM CODE</HomepageHeader>
+				<HomepageHeader>ODEUM Code</HomepageHeader>
 				<HomepageTagLine>A JavaScript framework for building ODEUM Apps with React</HomepageTagLine>
-				{/* <p><LinkTo to={'/docs/installation'}>Get Started</LinkTo></p> */}
-				
-				<ButtonPanel justify='center'>
+				<HomepageButonsContainer>
+					<ButtonPanel>
 
-					<LinkButton label={'Get Started'} icon={'code'} route={'/docs/installation'}/>
-					<HomepageButtonSpacer />
-					<LinkButton label={'Take the Tutorial'} icon={'star'} route={'/tutorial/tutorial'}/>
+						<LinkButton label={'Get Started'} icon={'code'} route={'/docs/installation'}/>
+						<HomepageButtonSpacer />
+						<LinkButton label={'Take the Tutorial'} icon={'star'} route={'/tutorial/tutorial'}/>
 
-				</ButtonPanel>
+					</ButtonPanel>
+				</HomepageButonsContainer>
 				{/* <Route path={'/tutorial/tutorial'} component={RouteComponent} /> */}
 
 			</AlignCenter>

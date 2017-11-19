@@ -16,7 +16,6 @@ import { RenderFooterLabel, handleLink } from './framework/FooterLabel'
 import Homepage from './content/Homepage/Homepage'
 import Installation from './content/docs/Installation'
 
-
 class App extends Component {
 
 	constructor(props) {
