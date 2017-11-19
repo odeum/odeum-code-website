@@ -36,9 +36,18 @@ class App extends Component {
 						<Homepage />
 					</Menu>
 
+					<Menu icon={'info'} label={'About'} route={'/about'}>
+						<Tab icon={'info'} label={'About'} route={'/'}>
+							About ODEUM Code ... 
+						</Tab>
+					</Menu>
+
 					<Menu icon={'code'} label={'Docs'} route={'/docs'}>
 						<Tab icon={'cloud_download'} label={'Installation'} route={'/installation'}>
 							<Installation />
+						</Tab>
+						<Tab icon={'language'} label={'Hello World'} route={'/hello-world'}>
+							Hello World ... 
 						</Tab>
 					</Menu>
 
