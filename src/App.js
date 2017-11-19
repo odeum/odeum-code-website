@@ -1,14 +1,21 @@
 import React, { Component } from 'react'
+
+// Framework imports
 import { 
 	AppContainer,
 	Header, 
 	MenuPanel, 
 	Menu,
 	Tab,
-	Workspace, 
 	Footer } from 'odeum-app'
 
-import { RenderFooterLabel, handleLink } from './content/FooterLabel'
+// Framework helper imports
+import { RenderFooterLabel, handleLink } from './framework/FooterLabel'
+
+// Content imports
+import Homepage from './content/Homepage/Homepage'
+import Installation from './content/docs/Installation'
+
 
 class App extends Component {
 
@@ -18,26 +25,6 @@ class App extends Component {
 		this.state = {
 			helpID: 0
 		}
-
-		Menu.defaultProps = {
-			setHelpID: this.setHelpID,
-			icon: 'menu' 
-		}
-
-		Tab.defaultProps = {
-			setHelpID: this.setHelpID,
-			label: 'Tab', 
-			icon: 'tab' 
-		}
-
-		Workspace.defaultProps = {
-			setHelpID: this.setHelpID
-		}
-
-	}
-
-	setHelpID = (helpID) => {
-		return helpID === this.state.helpID ? null : this.setState({ helpID: helpID })
 	}
 
 	render() {
@@ -45,11 +32,25 @@ class App extends Component {
 			<AppContainer>
 				<Header logo={'default'}/>
 				<MenuPanel>
-					<Menu route={'/'} exact helpID={1}>
-						Homepage
+
+					<Menu route={'/'} exact>
+						<Homepage />
 					</Menu>
+
+					<Menu icon={'code'} label={'Docs'} route={'/docs'}>
+						<Tab icon={'cloud_download'} label={'Installation'} route={'/installation'}>
+							<Installation />
+						</Tab>
+					</Menu>
+
+					<Menu icon={'star'} label={'Tutorial'} route={'/tutorial'}>
+						<Tab icon={'star'} label={'Tutorial'}>
+							Tutorial ... 
+						</Tab>						
+					</Menu>
+					
 				</MenuPanel>
-				<Footer label={RenderFooterLabel} labelLink={handleLink()} helpID={this.state.helpID} />
+				<Footer label={RenderFooterLabel} labelLink={handleLink()} helpID={'Messages ...'} />
 			</AppContainer>
 		)
 	}
