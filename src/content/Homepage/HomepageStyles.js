@@ -1,5 +1,6 @@
 import styled from 'styled-components'
 import { Link/* , Route */ } from 'react-router-dom'
+// import { colors } from '../onedarkpro'
 
 export const AlignCenter = styled.div`
 	text-align: center;
@@ -7,6 +8,7 @@ export const AlignCenter = styled.div`
 
 export const HomepageButonsContainer = styled.div`
 	padding-top: 40px;
+	/* background: linear-gradient(-135deg,#bf37ff 0,#ff6a85 50%,#fe9c5a 80%); */
 `
 
 export const Badge = styled.img`
