@@ -9,7 +9,9 @@ A JavaScript framework for building ODEUM Web Apps with React
 - Get Started (Docs)
 - Take the tutorial
 
-## Documentation
+## Docs
+### Installation
+ 
 
 ## Tutorial
 

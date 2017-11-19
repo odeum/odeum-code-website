@@ -11,7 +11,7 @@ export const Badge = styled.img`
 `
 
 export const HomepageHeader = styled.h1`
-	padding-top: 20px;
+	padding-top: 45px;
 	color: #2C3E50;
 	text-align: center;
 	margin: 0;
@@ -29,12 +29,12 @@ export const HomepageTagLine = styled.p`
 `
 
 export const LinkTo = styled(Link)`
-	background-color: #bbeffd; /* #3B97D3; */
+	background-color: #BBEFFD; /* #3B97D3; #BBEFFD #D1DFE8 */ 
 	border-bottom: 1px solid #000;
 	color: #1a1a1a;
 	text-decoration: none;
 	cursor: auto;
-	font-size: 17px;
+	/* font-size: 17px; */
 	line-height: 1.7;
 	font-weight: 200;
 	font-style: normal;
@@ -44,4 +44,8 @@ export const LinkTo = styled(Link)`
     	border-bottom-color: #1a1a1a;
 	}
 `
-
+export const HomepageButtonSpacer = styled.div`
+	display: flex;
+	margin-left: 10px;
+	margin-right: 10px;
+`
