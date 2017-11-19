@@ -35,12 +35,12 @@ const Homepage = () => {
 
 				<div style={{  marginLeft: '40px', marginRight: '40px' }}>
 					<h3 style={{ fontSize: '24px', fontWeight: '200' }}>Component-Based</h3>
-					<p>ODEUM Code evolves from the same compositional component model React introduces, alloving you to build encapsulated components that manage their own state, and then compose them to create the UI of your App.</p>
+					<p>ODEUM Code evolves from the same component model React introduces, alloving you to build encapsulated components that manage their own state, and then compose them to create the UI of your App.</p>
 					<p>Decompose design workspaces and put everything neatly into our <LinkTo to={'/docs/installation'}>Menu</LinkTo> and <LinkTo to={'/tutorial/tutorial'}>Tab</LinkTo> containers.</p>
 				</div>
 
 				<div style={{ marginLeft: '40px', marginRight: '40px' }}>
-					<h3 style={{ fontSize: '24px', fontWeight: '200' }}>Faster Frontend Development</h3>
+					<h3 style={{ fontSize: '24px', fontWeight: '200' }}>Fast Frontend Development</h3>
 					<p>By introducing not only the basic framework of your Web App, but also a plethora of <LinkTo to={'/docs/installation'}>ready-made UI components</LinkTo>, you can build frontends for Web Apps and websites pretty fast. Reuse existing React components and apply our responsive component model to ensure perfect rendering on all devices.</p>
 					<p>Through framework and visual UI primitives ODEUM Code is scaffolding your Web App with a quick launch in sight.</p>
 				</div>
