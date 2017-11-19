@@ -25,7 +25,7 @@ const Homepage = () => {
 				{/* <Route path={'/tutorial/tutorial'} component={RouteComponent} /> */}
 
 			</AlignCenter>
-			<div style={{ display: 'flex', lineHeight: '25px', marginTop: '50px', marginBottom: '65px', marginLeft: 'auto', marginRight: 'auto', width: '90%', }}>
+			<div style={{ display: 'flex', lineHeight: '25px', marginTop: '50px', marginBottom: '65px', marginLeft: 'auto', marginRight: 'auto', width: '90%', fontSize: '17px', }}>
 
 				<div style={{ marginLeft: '40px', marginRight: '40px' }}>
 					<h3>Declarative API</h3>

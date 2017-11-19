@@ -36,17 +36,18 @@ export const HomepageTagLine = styled.p`
 
 export const LinkTo = styled(Link)`
 	background-color: #BBEFFD; /* #3B97D3; #BBEFFD #D1DFE8 */ 
-	border-bottom: 1px solid #000;
+	border-bottom: 1px solid rgba(0,0,0,0.2);
 	color: #1a1a1a;
 	text-decoration: none;
 	cursor: auto;
-	/* font-size: 17px; */
 	line-height: 1.7;
 	font-weight: 200;
 	font-style: normal;
 	-webkit-font-smoothing: antialiased;
 	&:hover {
-		background-color: #3B97D3;
+		background-color: #81C1EA;
+		color: #fff;
+		/* font-weight: 500; */
     	border-bottom-color: #1a1a1a;
 	}
 `
