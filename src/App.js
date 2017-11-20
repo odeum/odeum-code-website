@@ -36,8 +36,8 @@ class App extends Component {
 						<Homepage />
 					</Menu>
 
-					<Menu icon={'info'} label={'About'} route={'/about'}>
-						<Tab icon={'info'} label={'About'} route={'/'}>
+					<Menu icon={'star'} label={'About'} route={'/about'}>
+						<Tab icon={'star'} label={'About'} route={'/'}>
 							About ODEUM Code ... 
 						</Tab>
 					</Menu>
@@ -51,8 +51,8 @@ class App extends Component {
 						</Tab>
 					</Menu>
 
-					<Menu icon={'star'} label={'Tutorial'} route={'/tutorial'}>
-						<Tab icon={'star'} label={'Tutorial'}>
+					<Menu icon={'directions'} label={'Tutorial'} route={'/tutorial'}>
+						<Tab icon={'directions'} label={'Tutorial'}>
 							Tutorial ... 
 						</Tab>						
 					</Menu>
