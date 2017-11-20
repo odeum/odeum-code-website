@@ -56,3 +56,13 @@ export const HomepageButtonSpacer = styled.div`
 	margin-left: 10px;
 	margin-right: 10px;
 `
+
+export const ContentBox = styled.section`
+    background: #f4f4f7;
+    border: solid 1px #e0e0e3;
+    border-radius: 8px;
+    padding: 40px 10px;
+    text-align: center;
+    position: relative;
+    box-shadow: inset 0 4px 15px 2px rgba(0, 0, 0, 0.06);
+`
