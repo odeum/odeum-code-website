@@ -1,7 +1,14 @@
 import React from 'react'
 import { ButtonPanel } from 'odeum-ui'
-import { AlignCenter, HomepageHeader, HomepageTagLine, HomepageButonsContainer, LinkTo, HomepageButtonSpacer } from './HomepageStyles'
 import { LinkButton } from '../../framework/LinkButton'
+import { 
+	AlignCenter, 
+	HomepageHeader, 
+	HomepageTagLine, 
+	HomepageButonsContainer, 
+	LinkTo, 
+	HomepageButtonSpacer } from './HomepageStyles'
+
 
 // const RouteComponent = () => {
 // 	return <div>Getting started ...</div>
@@ -25,6 +32,7 @@ const Homepage = () => {
 				{/* <Route path={'/tutorial/tutorial'} component={RouteComponent} /> */}
 
 			</AlignCenter>
+			{/* https://github.com/jxnblk/grid-styled */}
 			<div style={{ display: 'flex', lineHeight: '25px', marginTop: '50px', marginBottom: '65px', marginLeft: 'auto', marginRight: 'auto', width: '90%', fontSize: '17px', }}>
 
 				<div style={{ marginLeft: '40px', marginRight: '40px' }}>
