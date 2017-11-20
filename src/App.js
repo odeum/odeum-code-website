@@ -42,7 +42,7 @@ class App extends Component {
 						</Tab>
 					</Menu>
 
-					<Menu icon={'code'} label={'Docs'} route={'/docs'}>
+					<Menu icon={'directions'} label={'Docs'} route={'/docs'}>
 						<Tab icon={'cloud_download'} label={'Installation'} route={'/installation'}>
 							<Installation />
 						</Tab>
@@ -51,8 +51,8 @@ class App extends Component {
 						</Tab>
 					</Menu>
 
-					<Menu icon={'directions'} label={'Tutorial'} route={'/tutorial'}>
-						<Tab icon={'directions'} label={'Tutorial'}>
+					<Menu icon={'code'} label={'Tutorial'} route={'/tutorial'}>
+						<Tab icon={'code'} label={'Tutorial'}>
 							Tutorial ... 
 						</Tab>						
 					</Menu>
