@@ -88,6 +88,11 @@ export const HomepageButtonSpacer = styled.div`
 	display: flex;
 	margin-left: 10px;
 	margin-right: 10px;
+
+	@media (max-width: 767px) {
+		margin-left: 0px;
+		margin-right: 0px;
+	}
 `
 
 export const ContentBox = styled.section`

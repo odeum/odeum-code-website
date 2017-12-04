@@ -23,13 +23,12 @@ const Homepage = () => {
 						<HomepageHeader>ODEUM Code</HomepageHeader>
 						<HomepageTagLine>A JavaScript framework for building ODEUM Apps with React</HomepageTagLine>
 					</Box>
-					<Box width={[1]} pl={[10]} pr={[10]}>
+					<Box width={[1]} pl={[0, 10]} pr={[0, 10]}>
 						<HomepageButonsContainer>
 							<ButtonPanel>
 								<LinkButton label={'Get Started'} icon={'code'} route={'/docs/hello-world'} color={'#13A085'} />
-								<HomepageButtonSpacer />
+								<HomepageButtonSpacer />								
 								<LinkButton label={'Take the Tutorial'} icon={'star'} route={'/tutorial/tutorial'} />
-
 							</ButtonPanel>
 						</HomepageButonsContainer>
 					</Box>
