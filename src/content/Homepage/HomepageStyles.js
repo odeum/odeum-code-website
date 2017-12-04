@@ -48,6 +48,10 @@ export const HomepageHeader = styled.h1`
 	margin: 0;
 	font-size: 50px;
 	letter-spacing: -0.04em;
+
+	@media (max-width: 767px) {
+		font-size: 40px;
+	}
 `
 
 export const HomepageTagLine = styled.p`
@@ -57,6 +61,10 @@ export const HomepageTagLine = styled.p`
     font-size: 28px;
 	font-weight: 200;
 	letter-spacing: 0.01em;
+
+	@media (max-width: 767px) {
+		font-size: 24px;
+	}
 `
 
 export const LinkTo = styled(Link) `
